@@ -1,0 +1,26 @@
+/* Minimal Reset / Baseline Styles */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* Remove debugging borders when you're done testing */
+}
+
+/* Useful for full-height layouts during initial development */
+html,
+body {
+  height: 100%;
+  background-color: bisque;
+}
+
+/* Lists with consistent bullet spacing */
+ul {
+  padding: 1rem;
+}
+
+/* Responsive images, no inline gaps */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
